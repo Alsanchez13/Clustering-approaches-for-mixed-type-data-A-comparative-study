@@ -35,8 +35,8 @@ for(package.i in list.of.packages){
   )
 }
 # Functions
-source("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\sample_mix_exponential_discrete.R")
-source('C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\codes\\R\\clustering_bayesian_network.R')
+source("...\\sample_mix_exponential_discrete.R")
+source('...\\clustering_bayesian_network.R')
 
 #---------------------------------
 # SETTING UP DISTRIBUTED COMPUTING
