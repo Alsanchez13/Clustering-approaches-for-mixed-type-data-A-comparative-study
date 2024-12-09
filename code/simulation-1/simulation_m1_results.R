@@ -192,9 +192,6 @@ m1_gaussian_results <-
       sum(ari_results[,13]), sum(ari_results[,14]), sum(ari_results[,15]),
       sum(ari_results[,16]), sum(ari_results[,17]), sum(ari_results[,18])
       )
-    
-    print(ari_mean)
-    
     ari_sd <- c(
       sd(ari_results[,1])*10, sd(ari_results[,2])*10, sd(ari_results[,3])*10,
       sd(ari_results[,4])*10, sd(ari_results[,5])*10, sd(ari_results[,6])*10,
