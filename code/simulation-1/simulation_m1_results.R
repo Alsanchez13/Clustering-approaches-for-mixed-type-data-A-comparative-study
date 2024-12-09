@@ -33,8 +33,8 @@ for(package.i in list.of.packages){
   )
 }
 # Import custom functions
-source("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\sample_mixed_gaussian.R")
-source("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\codes\\R\\clustering_bayesian_network.R")
+source("...\\sample_mixed_gaussian.R")
+source("...\\clustering_bayesian_network.R")
 
 #---------------------------------
 # SETTING UP DISTRIBUTED COMPUTING
