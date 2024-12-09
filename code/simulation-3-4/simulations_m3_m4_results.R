@@ -35,9 +35,9 @@ for(package.i in list.of.packages){
   )
 }
 # Functions
-source('C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\codes\\R\\clustering_bayesian_network.R')
-source("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\codes\\R\\simulations\\sample_sbn_bn.R")
-source("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\codes\\R\\simulations\\sample_mixture_bn.R")
+source('...\\clustering_bayesian_network.R')
+source("...\\sample_sbn_bn.R")
+source("...\\sample_mixture_bn.R")
 #---------------------------------
 # SETTING UP DISTRIBUTED COMPUTING
 #---------------------------------
@@ -78,12 +78,12 @@ ari_sd <- c()
 # Start timer
 start <- Sys.time()
 # Import parameters of the simulation model
-# sim_model <- readRDS("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\m3_parameters2.rds")
-# sim_model <- readRDS("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\m3_parameters4.rds")
-sim_model <- readRDS("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\m3_parameters6.rds")
-# sim_model <- readRDS("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\m4_parameters2.rds")
-# sim_model <- readRDS("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\m4_parameters4.rds")
-# sim_model <- readRDS("C:\\Users\\a809716\\Desktop\\these_airbus\\article_1\\retour_journal_probability_statistics\\code\\m4_parameters6.rds")
+# sim_model <- readRDS("...\\m3_parameters2.rds")
+# sim_model <- readRDS("...\\m3_parameters4.rds")
+sim_model <- readRDS("...\\m3_parameters6.rds")
+# sim_model <- readRDS("...\\m4_parameters2.rds")
+# sim_model <- readRDS("...\\m4_parameters4.rds")
+# sim_model <- readRDS("...\\m4_parameters6.rds")
 
 bn_simulations_results <-
   foreach(s = size, .combine = "c") %do% {
